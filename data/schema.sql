@@ -1,0 +1,7 @@
+CREATE DATABASE recetas_db;
+CREATE TABLE recetas (
+id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+nombre VARCHAR (100) NOT NULL,
+ingredientes VARCHAR (255) NOT NULL,
+instrucciones TEXT NOT NULL
+)
